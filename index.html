@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Ede</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fa/css/font-awesome.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="" alt="" width="180px" /></a>
+      </div>
+      <nav>
+        <ul id="menuitems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="blog">Services</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li><a href="">Education & Experience</a></li>
+        </ul>
+      </nav>
+      <img
+        src="images/menu (2).png"
+        class="menu"
+        width="25px"
+        onclick="menutoggle()"
+      />
+    </div>
+    <div class="front-page">
+      <h1>I'm Ede David</h1>
+      <p>Hello and welcome to my humble site.</p>
+      <br />
+      <h3>Living In NIgeria | +78 123 654 78 | ededavid25@gmail.com</h3>
+    </div>
+
+    <section class="about text" id="about">
+      <h1><strong>About </strong>Me</h1>
+      <div class="block"></div>
+      <div class="row">
+        <div class="col-2 about-text">
+          <h3>Hello & Welcome</h3>
+          <h2>I'm David</h2>
+          <h4>Keynote Speaker, Product Manager, Content Creator ,Researcher</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Accusantium modi enim voluptates non id esse nobis quo sequi optio
+            quisquam?
+          </p>
+          <h3 class="header">Communication</h3>
+          <div class="progress-con">
+            <div class="skills one">100%</div>
+          </div>
+          <h3 class="header">Researching</h3>
+          <div class="progress-con">
+            <div class="skills two">90%</div>
+          </div>
+          <h3 class="header">Leadership</h3>
+          <div class="progress-con">
+            <div class="skills one">100%</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="images/KWM_0015-1-removebg-preview.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="service text">
+      <h1>Our <strong>Services</strong></h1>
+      <div class="block"></div>
+      <div class="service-boxes-con">
+        <div class="service-boxes">
+          <h2 class="box-no">01</h2>
+          <br />
+          <h3>Keynote Speaking</h3>
+          <br />
+          <p>
+            I offer keynote Speaking services that are <br />
+            outstanding and insipirational.
+          </p>
+        </div>
+        <div class="service-boxes">
+          <h2 class="box-no">02</h2>
+          <br />
+          <h3>Product Managing</h3>
+          <br />
+          <p>
+            I manage your products in a way no one has <br />
+            ever been able to do.
+          </p>
+        </div>
+        <div class="service-boxes">
+          <h2 class="box-no">03</h2>
+          <br />
+          <h3>Content Creating</h3>
+          <br />
+          <p>
+            I Create content for your website, presentation <br />
+            e.t.c that are awesome and amazing.
+          </p>
+        </div>
+        <div class="service-boxes">
+          <h2 class="box-no">04</h2>
+          <br />
+          <h3>Cosmetics production</h3>
+          <br />
+          <p>
+            I produce detergents and cosmetics <br />
+            that are inconparable to other detergents.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="edu">
+      <div class="text">
+        <h1>Best <strong>Education & Experiance</strong></h1>
+        <div class="block"></div>
+      </div>
+      <div class="row">
+        <div class="col-2 about-text">
+          <br />
+          <h2>Studied at ebonyi state university.</h2>
+          <div class="flex">
+            <h3 class="edu-text">start</h3>
+            <h1>2018 - 2022</h1>
+          </div>
+          <div class="flex">
+            <h3 class="edu-text"><i class="fa fa-arrow-right"></i></h3>
+            <h1>Masters in Biochemistry</h1>
+          </div>
+          <div class="flex">
+            <h3 class="edu-text"><i class="fa fa-arrow-right"></i></h3>
+            <h1>Planing & Strategy</h1>
+          </div>
+          <!-- <div class="flex"><h3 class="edu-text"><i class="fa fa-arrow-right"></i></h3></div> -->
+        </div>
+        <div class="col-2">
+          <img src="images/img1.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="hire-me">
+      <h1>I Am Available For Freelancer.</h1>
+      <br />
+      <br />
+      <a href="mailto:ededavid25@gmail.com?subject=Hire me!"
+        ><button class="btn">Hire me!</button></a
+      >
+    </section>
+
+    <section class="trust">
+      <h1>Trusted By Great People</h1>
+      <div class="row">
+        <img src="images/" alt="" />
+      </div>
+    </section>
+  </body>
+  <script>
+    var menuitems = document.getElementById("menuitems")
+
+    menuitems.style.maxHeight = "0px"
+
+    function menutoggle() {
+      if (menuitems.style.maxHeight == "0px") {
+        menuitems.style.maxHeight = "200px"
+      } else {
+        menuitems.style.maxHeight = "0px"
+      }
+    }
+  </script>
+</html>
