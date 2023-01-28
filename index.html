@@ -7,6 +7,7 @@
     <title>David Ede</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fa/css/font-awesome.css" />
+    <link rel="shortcut icon" href="images/fevicon.png" type="image/x-icon">
   </head>
   <body>
     <div class="navbar">
@@ -17,9 +18,9 @@
         <ul id="menuitems">
           <li><a href="index.html">Home</a></li>
           <li><a href="about">About</a></li>
-          <li><a href="blog">Services</a></li>
+          <li><a href="service">Services</a></li>
           <li><a href="contact">Contact</a></li>
-          <li><a href="">Education & Experience</a></li>
+          <li><a href="edu">Education & Experience</a></li>
         </ul>
       </nav>
       <img
@@ -29,6 +30,15 @@
         onclick="menutoggle()"
       />
     </div>
+    <!--  -->
+     <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="google"><i class="fa fa-google"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+
+      </div>
+
     <div class="front-page">
       <h1>I'm Ede David</h1>
       <p>Hello and welcome to my humble site.</p>
@@ -68,7 +78,7 @@
       </div>
     </section>
 
-    <section class="service text">
+    <section class="service text" id="service">
       <h1>Our <strong>Services</strong></h1>
       <div class="block"></div>
       <div class="service-boxes-con">
@@ -115,7 +125,7 @@
       </div>
     </section>
 
-    <section class="edu">
+    <section class="edu" id="edu">
       <div class="text">
         <h1>Best <strong>Education & Experiance</strong></h1>
         <div class="block"></div>
@@ -153,12 +163,133 @@
       >
     </section>
 
+      <div class="mySlides">
+    <div class="img">
+    <img src="images/user-1.png" alt="">
+    </div>
+    <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q> <br>
+    <p class="author">- John Keats</p>
+  </div>
+
+  <div class="mySlides">
+     <div class="img">
+    <img src="images/user-2.png" alt="">
+    </div>
+    <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+     <br>
+    <p class="author">- Ernest Hemingway</p>
+  </div>
+
+  <div class="mySlides">
+     <div class="img">
+    <img src="images/user-3.png" alt="">
+    </div>
+    <q>I have not failed. I've just found 10,000 ways that won't work.</q> <br>
+    <p class="author">- Thomas A. Edison</p>
+  </div>
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
     <section class="trust">
-      <h1>Trusted By Great People</h1>
+      <h1>Trusted By Great People</h1> <br>
       <div class="row">
-        <img src="images/" alt="" />
+        <img src="images/1.png" alt="" />
+        <img src="images/2.png" alt="" />
+        <img src="images/3.png" alt="" />
+        <img src="images/4.png" alt="" />
+        <img src="images/5.png" alt="" />
+        <img src="images/6.png" alt="" />
       </div>
     </section>
+
+    <section class="touch">
+      <div class="text">
+        <h1>Get in <strong>Touch</strong></h1>
+        <div class="block"></div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row2">
+        <div class="col-2">
+          <div class="contact-details">
+            <h6>Adresss</h6>
+            <p>1286 Willison Street 
+Minneapolis, MN 55415</p>
+          </div>
+          <div class="contact-details">
+            <h6>Mail</h6>
+            <p>ededavid25@gmail.com</p>
+          </div>
+          <div class="contact-details">
+            <h6>Call</h6>
+            <p>+2344545554</p>
+          </div>
+        </div>
+        <div class="col-2"><div class="form-con">
+                <form action="" class="con" method="post">
+                  
+                    <div class="contact">
+                    <input type="text" placeholder="First Name*" required>
+
+                    <input type="text" placeholder="last Name">
+                    </div>
+                    <input type="email" placeholder="Email address*" required>
+
+                    <input type="text" inputmode="numeric" placeholder="Phone Number">
+
+                   <textarea name="" id="" cols="30" rows="5" placeholder="How Can We Help You*" required></textarea>
+
+                    <button class="btc" type="submit"> Submit</button>
+                    <!-- mailto:ededivine001@gmail.com?subject=Portifolio-Contact -->
+                   
+                </form>
+            </div></div>
+      </div>
+    </section>
+
+     <div class="footer">
+      <div class="footer-text">
+  <h1>Contact Ede David now</h1> <br>
+      <p>Lorem Ipsum Dolor Sit Amet Fusce Cursus Vivamus Molestie Fames Suspendisse Aliquam Magnis Aliquet Arcu Viverra Blandit Accumsan</p>
+      </div>
+    
+      <div class="row">
+      <div class="footer-box">
+        <img src="images/icon1.png" alt=""> <br>
+        <h5>+49 5235 69 856</h5>
+      </div>
+      <div class="footer-box">
+        <img  src="images/icon2.png" alt=""> <br>
+        <h5>66 Lion Street, Essex</h5>
+      </div>
+      <div class="footer-box">
+        <img src="images/icon3.png" alt=""> <br>
+        <h5>info@footer.layout</h5>
+      </div>
+        </div>
+     <div class="footer-icon">
+      <div class="icon"><i class="fa fa-facebook"></i></div>
+      <div class="icon"><i class="fa fa-twitter"></i></div>
+      <div class="icon"><i class="fa fa-linkedin"></i></div>
+      <div class="icon"><i class="fa fa-instagram"></i></div>
+     </div>
+      <hr />
+      <p class="copyright">&COPY; Copyright All Right Rerserved | Ede David 2023</p>
+    </div>
+     </div>
+
   </body>
   <script>
     var menuitems = document.getElementById("menuitems")
@@ -172,5 +303,36 @@
         menuitems.style.maxHeight = "0px"
       }
     }
+
+     var slideIndex = 1;
+showSlides(slideIndex);
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
   </script>
 </html>
